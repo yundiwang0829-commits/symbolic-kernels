@@ -28,7 +28,10 @@ symbolic system = kernel hypothesis
 
 我们假设它是一个类似这样的形式：
 ```text
-k_total(x, x') = w_cycle  * k_cycle(x, x') + noise
+$$
+k_{\text{total}}(x, x') =
+w_{\text{cycle}} \cdot k_{\text{cycle}}(x, x') + \sigma^2_n
+$$
 ```
 
 这样我们就可以问一个更精确的问题：
