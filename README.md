@@ -27,12 +27,8 @@ symbolic system = kernel hypothesis
 - 得到了哪一卦
 
 我们假设它是一个类似这样的形式：
-```text
-$$
-k_{\text{total}}(x, x') =
-w_{\text{cycle}} \cdot k_{\text{cycle}}(x, x') + \sigma^2_n
-$$
-```
+$k_{\text{total}}(x, x') = w_{\text{cycle}} k_{\text{cycle}}(x, x') + \epsilon$
+
 
 这样我们就可以问一个更精确的问题：
 > 哪一部分传统结构真的贡献了可泛化的相似性？
